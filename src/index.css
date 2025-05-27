@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bg{
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.852),rgba(0, 0, 0, 0.336)) , url("https://img.freepik.com/premium-photo/businessman-using-laptop-access-documents-onlinedocument-management-system-manage-financial-marketing-documents-annual-budget-account-software-archiving-data-search_1364543-46.jpg");
+} */
+
