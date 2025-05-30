@@ -46,8 +46,8 @@ const ProductPage = () => {
 
         {/* Add to Cart */}
         <div className="mt-10 text-center">
-         <button className="rounded-full border-[1px] py-1 px-8 md:border-[2px] md:py-[5px] md:px-12 border-orange-600 hover:bg-orange-600 duration-300 hover:text-white transition">
-              Contact
+         <button className="rounded-full border-[1.5px] py-1 px-8 md:border-[2px] md:py-[5px] md:px-12 border-orange-600 font-semibold hover:bg-orange-600 duration-300 hover:text-white transition">
+              Add to cart
          </button>
         </div>
       </div>
