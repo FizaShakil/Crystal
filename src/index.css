@@ -7,3 +7,9 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.852),rgba(0, 0, 0, 0.336)) , url("https://img.freepik.com/premium-photo/businessman-using-laptop-access-documents-onlinedocument-management-system-manage-financial-marketing-documents-annual-budget-account-software-archiving-data-search_1364543-46.jpg");
 } */
 
+body{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}

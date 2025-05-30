@@ -57,7 +57,8 @@ const About = () => {
           <p className="text-lg mb-6">
              To build smarter digital ecosystems that simplify life and connect people with the future of automation.
           </p>
-          <button className="rounded-full border-[1px] py-1 px-8 md:border-[2px] md:py-[5px] md:px-12 border-orange-600 hover:bg-orange-600 duration-300 hover:text-white transition">
+          <button className="rounded-full border-[1px] py-1 px-8 md:border-[2px] md:py-[5px] md:px-12 border-orange-600 hover:bg-orange-600 duration-300 hover:text-white transition"
+          onClick={() => navigate("/contact")}>
               Contact
          </button>
         </div>
@@ -67,3 +68,4 @@ const About = () => {
 };
 
 export default About;
+

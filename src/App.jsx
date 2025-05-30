@@ -9,6 +9,7 @@ import Products from "./components/Products/Products"
 import Pricing from "./components/Pricing/Pricing"
 import TermsOfService from "./components/Terms-of-Service/TermsOfService"
 import ProductPage from "./components/Products/ProductPage"
+import Contact from "./components/Home/Contact"
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
         <Route path={'/terms-of-service'} element={<TermsOfService/>}/>
         <Route path={'/login'} element={<Home/>}/>
         <Route path="/product/:id" element={<ProductPage />} />
+        <Route path={'/contact'} element={<Contact/>}/>
        </Routes>
        <Footer/>
      </Router>

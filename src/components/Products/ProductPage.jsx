@@ -46,12 +46,9 @@ const ProductPage = () => {
 
         {/* Add to Cart */}
         <div className="mt-10 text-center">
-          <button
-            onClick={() => console.log("Add to cart logic goes here")}
-            className="bg-orange-600 text-black px-8 py-3 rounded-md font-semibold hover:bg-orange-700 transition"
-          >
-            Add to Cart
-          </button>
+         <button className="rounded-full border-[1px] py-1 px-8 md:border-[2px] md:py-[5px] md:px-12 border-orange-600 hover:bg-orange-600 duration-300 hover:text-white transition">
+              Contact
+         </button>
         </div>
       </div>
     </div>

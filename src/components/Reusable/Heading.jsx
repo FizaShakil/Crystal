@@ -12,7 +12,7 @@ const Heading = ({head}) => {
 export const SubLine = ({line})=>{
   return(
     <div>
-      <div className='text-center text-sm md:text-lg mt-2'>{line}</div>
+      <div className='text-center text-sm md:text-lg mt-4'>{line}</div>
     </div>
   )
 }
